@@ -1,4 +1,4 @@
-import { Code, Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Code, Github, Linkedin, Mail } from "lucide-react";
 import React from "react";
 
 // Локальные Card и Button
@@ -39,9 +39,9 @@ export default function ResumeSite() {
             Frontend Engineer
           </p>
           <div className="flex flex-wrap gap-4 mt-4 text-sm text-neutral-600 dark:text-neutral-300">
-            <div className="flex items-center gap-1">
+            {/* <div className="flex items-center gap-1">
               <Phone className="h-4 w-4" /> (437) 223-4511
-            </div>
+            </div> */}
             <a
               href="mailto:nazar.shcherbyna.own@gmail.com"
               className="flex items-center gap-1 hover:underline"
