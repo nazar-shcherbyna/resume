@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Favicon background match */
+:root { --fav-bg: #0f172a; }
+
+html, body { height: 100%; }

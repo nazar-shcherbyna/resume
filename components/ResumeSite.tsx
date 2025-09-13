@@ -180,6 +180,10 @@ export default function ResumeSite() {
                   high-frequency deployments with 0 critical production bugs.
                 </li>
               </ul>
+              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
+                Tech stack: React, Ionic + Capacitor, Zustand, TanStack Query,
+                Stripe, PayPal, Vercel, AWS S3/CloudFront
+              </div>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -202,6 +206,10 @@ export default function ResumeSite() {
                   achieving over 80% automated test coverage.
                 </li>
               </ul>
+              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
+                Tech stack: React, Redux, Apollo Client, GraphQL, Cypress,
+                Storybook, GitLab CI/CD
+              </div>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -224,6 +232,9 @@ export default function ResumeSite() {
                   user-reported compatibility issues by 30%.
                 </li>
               </ul>
+              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
+                Tech stack: React, Redux, REST API, Jest, React Testing Library
+              </div>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -242,6 +253,9 @@ export default function ResumeSite() {
                   20%.
                 </li>
               </ul>
+              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
+                Tech stack: Next.js, React, CSS Modules
+              </div>
             </div>
           </div>
         </section>
