@@ -1,5 +1,6 @@
 import { Code, Github, Linkedin, Mail } from "lucide-react";
 import React from "react";
+import { TechStackSection } from "./TechStackSection";
 
 // Локальные Card и Button
 function Card({ children }: { children: React.ReactNode }) {
@@ -162,6 +163,9 @@ export default function ResumeSite() {
               <p className="text-sm text-neutral-500">
                 San Francisco, USA (Remote) | Feb 2024 – Present
               </p>
+              <p className="text-xs mt-2 text-neutral-500">
+                Domain: AI Chatbot Platform / Social Networking
+              </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
                 <li>
                   Directed Android/web AI chatbot development, growing monthly
@@ -180,10 +184,11 @@ export default function ResumeSite() {
                   high-frequency deployments with 0 critical production bugs.
                 </li>
               </ul>
-              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
-                Tech stack: React, Ionic + Capacitor, Zustand, TanStack Query,
-                Stripe, PayPal, Vercel, AWS S3/CloudFront
-              </div>
+              <TechStackSection>
+                JavaScript, TypeScript, Ionic (Capacitor), React, React Native,
+                Vite, REST API, Axios, SQL, Python, Cypress, Vitest,
+                react-hook-form, Zustand, Zod, Git, Radix UI, TanStack Query.
+              </TechStackSection>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -191,6 +196,9 @@ export default function ResumeSite() {
               </h3>
               <p className="text-sm text-neutral-500">
                 New York, USA (Remote) | Aug 2022 – Jan 2024
+              </p>
+              <p className="text-xs mt-2 text-neutral-500">
+                Domain: CRM / Billing System
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
                 <li>
@@ -206,10 +214,12 @@ export default function ResumeSite() {
                   achieving over 80% automated test coverage.
                 </li>
               </ul>
-              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
-                Tech stack: React, Redux, Apollo Client, GraphQL, Cypress,
-                Storybook, GitLab CI/CD
-              </div>
+              <TechStackSection>
+                JavaScript, TypeScript, HTML/CSS (Sass), React, Next.js,
+                GraphQL, Apollo, Vitest, React Testing Library, react-hook-form,
+                echarts, Zod, Git, Monorepo (pnpm), Storybook, Vite/Rollup, Ant
+                Design.
+              </TechStackSection>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -217,6 +227,9 @@ export default function ResumeSite() {
               </h3>
               <p className="text-sm text-neutral-500">
                 Kharkiv, Ukraine | Aug 2021 – Aug 2022
+              </p>
+              <p className="text-xs mt-2 text-neutral-500">
+                Domain: E-learning Platform
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
                 <li>
@@ -232,9 +245,10 @@ export default function ResumeSite() {
                   user-reported compatibility issues by 30%.
                 </li>
               </ul>
-              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
-                Tech stack: React, Redux, REST API, Jest, React Testing Library
-              </div>
+              <TechStackSection>
+                JavaScript, TypeScript, HTML/CSS, React, Redux, Axios, MongoDB,
+                Git, Jest, React Testing Library, webpack.
+              </TechStackSection>
             </div>
             <div>
               <h3 className="font-semibold">
@@ -242,6 +256,9 @@ export default function ResumeSite() {
               </h3>
               <p className="text-sm text-neutral-500">
                 Mariupol, Ukraine | Dec 2020 – Jul 2021
+              </p>
+              <p className="text-xs mt-2 text-neutral-500">
+                Domain: E-commerce
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
                 <li>
@@ -253,9 +270,9 @@ export default function ResumeSite() {
                   20%.
                 </li>
               </ul>
-              <div className="mt-3 inline-block bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-3 py-1 rounded-lg text-xs">
-                Tech stack: Next.js, React, CSS Modules
-              </div>
+              <TechStackSection>
+                JavaScript, HTML/CSS (Sass), React, Next.js, Git.
+              </TechStackSection>
             </div>
           </div>
         </section>
