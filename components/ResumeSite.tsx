@@ -160,10 +160,10 @@ export default function ResumeSite() {
               <h3 className="font-semibold">
                 Senior Frontend Engineer — Pheon (Dialogue)
               </h3>
-              <p className="text-sm text-neutral-500">
+              <p className="text-sm text-neutral-200 italic">
                 San Francisco, USA (Remote) | Feb 2024 – Present
               </p>
-              <p className="text-xs mt-2 text-neutral-500">
+              <p className="text-sm mt-1 text-neutral-400">
                 Domain: AI Chatbot Platform / Social Networking
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -194,10 +194,10 @@ export default function ResumeSite() {
               <h3 className="font-semibold">
                 Intermediate Frontend Engineer — Wezom
               </h3>
-              <p className="text-sm text-neutral-500">
+              <p className="text-sm text-neutral-200 italic">
                 New York, USA (Remote) | Aug 2022 – Jan 2024
               </p>
-              <p className="text-xs mt-2 text-neutral-500">
+              <p className="text-sm mt-1 text-neutral-400">
                 Domain: CRM / Billing System
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -225,10 +225,10 @@ export default function ResumeSite() {
               <h3 className="font-semibold">
                 Junior Frontend Engineer — Avice
               </h3>
-              <p className="text-sm text-neutral-500">
+              <p className="text-sm text-neutral-200 italic">
                 Kharkiv, Ukraine | Aug 2021 – Aug 2022
               </p>
-              <p className="text-xs mt-2 text-neutral-500">
+              <p className="text-sm mt-1 text-neutral-400">
                 Domain: E-learning Platform
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -254,10 +254,10 @@ export default function ResumeSite() {
               <h3 className="font-semibold">
                 Trainee Frontend Engineer — Freelance
               </h3>
-              <p className="text-sm text-neutral-500">
+              <p className="text-sm text-neutral-200 italic">
                 Mariupol, Ukraine | Dec 2020 – Jul 2021
               </p>
-              <p className="text-xs mt-2 text-neutral-500">
+              <p className="text-sm mt-1 text-neutral-400">
                 Domain: E-commerce
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -281,10 +281,16 @@ export default function ResumeSite() {
           <h2 className="uppercase text-neutral-500 text-sm tracking-wider mb-4">
             Education
           </h2>
-          <p>
-            <strong>Pryazovskyi State Technical University</strong>, Mariupol,
-            Ukraine — Bachelor of Science in Computer Science, 2024
+          <p className="text-base">
+            Bachelor of Science in Computer Science, 2024
           </p>
+          <a
+            href="https://pstu.edu/en/"
+            className="text-sm text-neutral-400 italic underline hover:text-neutral-300"
+            target="_blank"
+          >
+            Pryazovskyi State Technical University, Mariupol, Ukraine
+          </a>
         </section>
 
         <section className="mb-8">
