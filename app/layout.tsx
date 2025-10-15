@@ -4,12 +4,12 @@ import "../styles/globals.css";
 export const metadata: Metadata = {
   title: "Nazar Shcherbyna — Software Engineer Resume",
   description:
-    "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js. Built with modern design, performance, and scalability in mind.",
+    "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js, React Native. Built with modern design, performance, and scalability in mind.",
   metadataBase: new URL("https://nazar-shcherbyna.vercel.app"),
   openGraph: {
     title: "Nazar Shcherbyna — Software Engineer Resume",
     description:
-      "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js. Built with modern design, performance, and scalability in mind.",
+      "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js, React Native. Built with modern design, performance, and scalability in mind.",
     url: "https://nazar-shcherbyna.vercel.app",
     siteName: "Nazar Shcherbyna Resume",
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nazar Shcherbyna — Software Engineer Resume",
     description:
-      "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js. Built with modern design, performance, and scalability in mind.",
+      "Personal resume website of Nazar Shcherbyna — Software Engineer experienced in React, Next.js, React Native. Built with modern design, performance, and scalability in mind.",
     images: ["/thumbnail.png"],
   },
 };
