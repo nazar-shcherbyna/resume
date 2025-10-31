@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Script from "next/script";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
@@ -41,7 +42,26 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
+
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-3MKRPEGPDP`}
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3MKRPEGPDP');
+            `,
+          }}
+        />
       </head>
+
       <body className="bg-white dark:bg-neutral-950">{children}</body>
     </html>
   );
